@@ -1,0 +1,23 @@
+{
+    "name": "kyanag/relation",
+    "description": "没有 Laravel 也能使用的关联模型库",
+    "version": "1.0.0-dev",
+    "type": "library",
+    "keywords": [
+        "database",
+        "relation"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kyanag\\Relation\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "require": {
+        "ext-pdo": "*",
+        "latitude/latitude": "^4.2"
+    }
+}
